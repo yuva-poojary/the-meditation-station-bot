@@ -1,1 +1,1 @@
-worker: node app.js
+worker: node klasa-selfroles-gateway/src/index.js
