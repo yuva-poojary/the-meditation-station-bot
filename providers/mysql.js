@@ -41,11 +41,11 @@ module.exports = class extends SQLProvider {
 
 	async init() {
 		const connection = mergeDefault({
-			host: 'localhost',
+			host: 'sql12.freesqldatabase.com',
 			port: 3306,
-			user: 'root',
-			password: '',
-			database: 'klasa'
+			user: 'sql12315642',
+			password: '9uPJnfAIeg',
+			database: 'sql12315642'
 		}, this.client.options.providers.mysql);
 		this.db = await mysql.createConnection({
 			host: connection.host,
