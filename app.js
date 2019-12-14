@@ -119,7 +119,7 @@ var client = new Client({
     clientOptions: {
         fetchAllMembers: false
     },
-    clientID: '637472382797348875',
+    clientID: '636904837111480331',
     clientSecret: config.clientSecret,
     commandEditing: true,
     typing: true,
